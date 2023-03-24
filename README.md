@@ -2,8 +2,15 @@
 
 In this Assignmment, we build a weather app that can fetch and display weather data based on location name or location of the user.
 
+<br/>
 
+## Set Up Instructions
+  - Clone the git repository to your local machine by running:  *git clone "repository url"*
+  - From your local repository
+    - Download dependencies by running:   *npm install*
+    - Start up the app using:   *npm start*
 
+<br/>
 
 ## Functionality 
 - **Home Route**
