@@ -1,0 +1,174 @@
+.weather-bg-container{
+    min-height: 100vh;
+    background-color: #05b0fa;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.weather-content{
+    width: 100%;
+    max-width: 340px;
+    background-color: #f2f2ea;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px #048dc7;
+}
+
+.weather-header{
+    display: flex;
+    align-items: center;
+}
+
+.arrow-button{
+    background-color: transparent;
+    border-style: none;
+    padding: 0px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow-icon{
+    font-size: 25px;
+    color: #05b0fa;
+}
+
+.weather-heading{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    color: #05b0fa;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+hr{
+    flex-grow: 1;
+    border: 1px solid #d2d5d9;
+    margin: 0px;
+}
+
+.icon-container{
+    background-image: radial-gradient(#89d3f6, #f2f2ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.weather-icon{
+    width: 40%;
+    align-self: center;
+}
+
+.main-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.temp{
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 600;
+    color: #000000;
+    align-self: center;
+    margin: 0px;
+}
+
+.sup-main-temp{
+    font-size: 15px;
+    margin: 3px;
+}
+
+.description{
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.location-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-icon{
+    margin-right: 5px;
+}
+
+.location{
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #000000;
+    margin: 0px;
+}
+
+.feel-humdity-container{
+    display: flex;
+}
+
+.feel-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #d2d5d9;
+    padding: 15px 0px;
+}
+
+.temp-icon{
+    color: #05afff;
+    font-size: 30px;
+}
+
+.feel{
+    display: flex;
+    flex-direction: column;
+}
+
+.label-text{
+    font-family: "Poppins";
+    font-size: 10px;
+    color: #000000;
+    margin: 0px 5px;
+}
+
+.sup-feel-temp{
+    font-size: 8px;
+    margin: 3px;
+}
+
+.humidity-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #d2d5d9;
+    padding: 15px 0px;
+}
+
+.humidity-icon{
+    color: #05afff;
+    font-size: 20px;
+}
+
+.humidity {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 14px;
+}
